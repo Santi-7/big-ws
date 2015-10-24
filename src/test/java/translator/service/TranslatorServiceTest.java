@@ -21,7 +21,7 @@ public class TranslatorServiceTest {
     @Test
     public void translateTest() throws Exception {
         TranslatedText translatedText = translatorService.translate("de", "en", "Es ist mein Lieblings-Fach");
-        assertEquals("This is my favorite subject",translatedText.getTranslation());
+        assertEquals("It is my favorite subject",translatedText.getTranslation());
     }
 
 }
