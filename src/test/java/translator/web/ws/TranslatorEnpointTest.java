@@ -47,6 +47,6 @@ public class TranslatorEnpointTest {
 				+ port + "/ws", request);
 		assertNotNull(response);
 		assertThat(response, instanceOf(GetTranslationResponse.class));
-		assertThat(((GetTranslationResponse) response).getTranslation(), is("This is my favorite subject"));
+		assertThat(((GetTranslationResponse) response).getTranslation(), is("It is my favorite subject"));
 	}	
 }
